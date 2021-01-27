@@ -2,49 +2,75 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>My First HTML Page</title>
+    <title>Using CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <style media="screen">
+      body{
+        background-image: url("images/wood.jpg");
+      }
+    </style>
   </head>
   <body>
-    <div>
+    <div class="landing-container">
       <!--Header-->
-      <div>
-        <img src="images\fullmoon.jpg" alt="theme-switcher">
-      </div>
+
+        <div class="hide">
+          <img src="images/fullmoon.jpg" alt="theme-switcher">
+        </div>
+
 
       <!--Side Navigation Bar-->
-      <div>
-        <ul>
-          <li><a href="#">wishlist</a></li>
-          <li><a href="#">portfolio</a></li>
-          <li><a href="#">home</a></li>
-        </ul>
+
+
+      <div class="nav">
+        <header>
+          <nav>
+            <ul>
+              <li>
+                <a href="#">home</a>
+              </li>
+              <li>
+                <a id="spec1" href="#">portfolio</a>
+              </li>
+              <li>
+                <a href="#">wishlist</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
       </div>
 
-      <!--Image section-->
-      <div >
-        <img src="images\1.jpg" alt="Embroidery Design 1">
-        <img src="images\2.jpg" alt="Embroidery Design 1">
-        <img src="images\3.jpg" alt="Embroidery Design 1">
-        <img src="images\4.jpg" alt="Embroidery Design 1">
-      </div>
 
-      <!--Image section-->
-      <div >
+
+      <!--Text Section-->
+
+      <div class="textcontainer" style="line-height:1.8em;">
         <h5>Hi , I am</h5>
-        <h1>Anita Hitesh Shah</h1>
-        <p>Tombs are clothes of the dead <br>
-        and a grave is a plain suit;<br>
-        while an expensive monument is <br>
-        one with EMBROIDERY</p>
+        <h1 id="name">Anita<br> Hitesh<br> Shah</h1>
+        <p id="info">Fashion Designer | Mother</p>
+        <p>Tombs are clothes of the dead
+        and a grave is a plain suit;
+        while an expensive monument is the
+        one with </p>
+        <p id="special">EMBROIDERY</p>
+
+          <button type="button" >contact</button>
       </div>
+
+
+      <!--Contact section-->
+
 
       <!--Image section-->
       <div>
-        <form >
-          <input type="button"  value="contact">
-        </form>
+          <img id="a" class="img-container" src="images/2.jpg" alt="Embroidery Design 2">
+          <img id="b" class="img-container" src="images/1.jpg" alt="Embroidery Design 1">
+          <img id="c" class="img-container" src="images/3.jpg" alt="Embroidery Design 3">
+          <img id="d"  class="img-container" src="images/4.jpg" alt="Embroidery Design 4">
 
-      </div>
+      </div
 
 
 
