@@ -83,6 +83,7 @@ font-family: Montserrat;
     padding-left: 20px;
     font-weight:bold;
     line-height: 0.8em;
+
 }
 
 .textcontainer h1{
@@ -140,9 +141,7 @@ li a:hover{
 #info{
   color:silver;
 }
-nav{
-  ledt=100px;
-}
+
 #name{
   font-size: 40px;
   line-height: 1.2em;
